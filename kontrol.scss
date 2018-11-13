@@ -1,0 +1,23 @@
+section {
+    justify-content: space-between;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;    
+    min-height: 100vh;    
+}
+button {
+    width: 200px;
+    height: 100px;
+    margin: 5px;    
+    background: linear-gradient(#6D07CC, #DE87FF);
+}
+.text_block {    
+    font-size: 50px;
+    text-align: center;
+    color: #855199;
+    padding: 20px;
+    border: 2px dotted #3A047A;
+}
+.btn_bottom {
+    align-self: flex-end;
+}

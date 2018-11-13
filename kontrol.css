@@ -1,0 +1,36 @@
+section {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6D07CC), to(#DE87FF));
+  background: linear-gradient(#6D07CC, #DE87FF);
+}
+
+.text_block {
+  font-size: 50px;
+  text-align: center;
+  color: #855199;
+  padding: 20px;
+  border: 2px dotted #3A047A;
+}
+
+.btn_bottom {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=kontrol.css.map */
