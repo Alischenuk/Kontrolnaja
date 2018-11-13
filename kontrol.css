@@ -13,7 +13,7 @@ section {
   min-height: 100vh;
 }
 
-button {
+section .btn button {
   width: 200px;
   height: 100px;
   margin: 5px;
@@ -21,7 +21,7 @@ button {
   background: linear-gradient(#6D07CC, #DE87FF);
 }
 
-.text_block {
+section .btn .text_block {
   font-size: 50px;
   text-align: center;
   color: #855199;
@@ -29,8 +29,13 @@ button {
   border: 2px dotted #3A047A;
 }
 
-.btn_bottom {
+section .btn_bottom {
   -ms-flex-item-align: end;
       align-self: flex-end;
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6D07CC), to(#DE87FF));
+  background: linear-gradient(#6D07CC, #DE87FF);
 }
 /*# sourceMappingURL=kontrol.css.map */
